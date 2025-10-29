@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poseidon.Orders.API", "src\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poseidon.Orders.Shared", "src\Poseidon.Orders.Shared\Poseidon.Orders.Shared.csproj", "{1D693B7D-BC64-4A20-B76B-0286B071016A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poseidon.Orders.Billing.Worker", "src\Poseidon.Orders.Billing.Worker\Poseidon.Orders.Billing.Worker.csproj", "{6B3CB001-E9E7-4831-8C40-28E2161C6C1F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,9 +28,14 @@ Global
 		{1D693B7D-BC64-4A20-B76B-0286B071016A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D693B7D-BC64-4A20-B76B-0286B071016A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D693B7D-BC64-4A20-B76B-0286B071016A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B3CB001-E9E7-4831-8C40-28E2161C6C1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B3CB001-E9E7-4831-8C40-28E2161C6C1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B3CB001-E9E7-4831-8C40-28E2161C6C1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B3CB001-E9E7-4831-8C40-28E2161C6C1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{6404159F-E3F6-4084-AD37-28A19937C7EA} = {149EE9DA-4028-465E-811F-8B9D5F0996B3}
 		{1D693B7D-BC64-4A20-B76B-0286B071016A} = {149EE9DA-4028-465E-811F-8B9D5F0996B3}
+		{6B3CB001-E9E7-4831-8C40-28E2161C6C1F} = {149EE9DA-4028-465E-811F-8B9D5F0996B3}
 	EndGlobalSection
 EndGlobal
